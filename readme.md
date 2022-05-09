@@ -1,5 +1,5 @@
-# Code Chalenge. 
-Code Challegnge Semana 4 Cursos de Visual Thinking API. 
+# Code Challenge. 
+Code Challenge Semana 4 Cursos de Visual Thinking API. 
 
 ## Requerimientos: 
 1. Habilitar un endpoint para consultar todos los estudiantes con todos sus campos.
