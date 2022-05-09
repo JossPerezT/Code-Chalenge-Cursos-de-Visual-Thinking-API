@@ -1,0 +1,31 @@
+{
+  "name": "code_challenge",
+  "version": "1.0.0",
+  "description": "Code Challenge Cursos de Visual Thinking API",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "node ./node_modules/.bin/jest", 
+    "server": "node ./lib/server.js", 
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JossPerezT/Code-Challenge-Cursos-de-Visual-Thinking-API.git"
+  },
+  "author": "jocelynperez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JossPerezT/Code-Challenge-Cursos-de-Visual-Thinking-API/issues"
+  },
+  "homepage": "https://github.com/JossPerezT/Code-Challenge-Cursos-de-Visual-Thinking-API#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
