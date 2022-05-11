@@ -10,6 +10,27 @@ Code Challenge Week 4 "Cursos de Visual Thinking API".
 3. Creting a endpoint to consult all students with `credits` greater than 500.
 
 
+## Clone Repository. 
+- Go [Code Challenge](https://github.com/JossPerezT/Code-Challenge-Cursos-de-Visual-Thinking-API) repository. 
+
+![image](https://user-images.githubusercontent.com/84040594/167931712-767c596f-ba7c-4ceb-a019-5d9bc7a4d118.png)
+
+- Click _code_
+
+![image](https://user-images.githubusercontent.com/84040594/167931881-4ac53379-8fc9-47fd-a9b9-fa62f1425389.png)
+
+- Copy the URL: SSH or HTTP
+
+![image](https://user-images.githubusercontent.com/84040594/167932139-2938d4e0-74ea-4860-9b32-230c8b1e106a.png)
+![image](https://user-images.githubusercontent.com/84040594/167932189-b86d1bb8-b120-4307-9423-343cdff84f53.png)
+
+- Go your terminal and run command `git clone <URL>`
+
+![image](https://user-images.githubusercontent.com/84040594/167933969-2fbbcfb5-d185-4c3e-a7fd-230aa2cd5210.png)
+
+- Done. We clone my repository.
+
+
 ## Getting Started
 This proyect need dependencies Jest, Express, EsLint and Supertest. 
 1. Run: `npm install` to create node_modules files. 
@@ -17,15 +38,15 @@ This proyect need dependencies Jest, Express, EsLint and Supertest.
 If don´t install it, run:
 1. Jest: `npm install --save-dev jest`
 2. Express: `npm install express --save`
-3. Eslint: `npm install eslint --save-dev to install dependence and `npm init @eslint/config` to configure the rules. 
+3. Eslint: `npm install eslint --save-dev to install dependence and `npm init @eslint/config` to configure the rules.
 4. Supertest: `npm install supertest --save-dev`
 
 
 ## Dependencies. 
-- [Jest](http://jestjs.io/): Testing Framework to test my code. 
-- [Express](https://expressjs.com/): Web framework to creating API´s and http methods. 
-- [Supertest](https://www.npmjs.com/package/supertest): Used it to run testing with a http method server. 
-- [Eslint](https://eslint.org/): Used it to find and fix syntax errors and standirse code. 
+- [Jest](http://jestjs.io/): Testing Framework to test my code. `Version 27.5.1`
+- [Express](https://expressjs.com/): Web framework to creating API´s and http methods. `Version 4.18.1`
+- [Supertest](https://www.npmjs.com/package/supertest): Used it to run testing with a http method server. `Version 6.2.3`
+- [Eslint](https://eslint.org/): Used it to find and fix syntax errors and standirse code. `Version 8.15.0`
 
 
 ## Design 
@@ -57,6 +78,6 @@ I separated responsibilities:
 
 
 ## EsLint 
-EsLint help us to find and finx syntax error and gives a style guide about standirse code. Here use [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+EsLint help us to find and finx syntax error and gives a style guide about standirse code. Here use [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) `Version 15.0.0`
 - Run `npm run linter` to find syntax errors. 
 - Run `npm run linter --fix`to fix all syntax errors automatically. 
