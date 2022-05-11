@@ -22,14 +22,10 @@ If don´t install it, run:
 
 
 ## Dependencies. 
-- [Jest](http://jestjs.io/)
-   - Testing Framework to test my code. 
-- [Express](https://expressjs.com/).
-  - Web framework to creating API´s and http methods. 
-- [Supertest](https://www.npmjs.com/package/supertest).
-  - Used it to run testing with a http method server. 
-- [Eslint](https://eslint.org/).
-  - Used it to find and fix syntax errors and standirse code. 
+- [Jest](http://jestjs.io/): Testing Framework to test my code. 
+- [Express](https://expressjs.com/): Web framework to creating API´s and http methods. 
+- [Supertest](https://www.npmjs.com/package/supertest): Used it to run testing with a http method server. 
+- [Eslint](https://eslint.org/): Used it to find and fix syntax errors and standirse code. 
 
 
 ## Design 
